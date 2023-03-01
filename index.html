@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>consulta-cep</title>
+
+</head>
+
+<body>
+    <main class="principal">
+    <h2 class="titulo">Consulta CEP</h2>
+    <div class="formulario__campo">
+        <label class="campo__etiqueta" for="cep">CEP:</label>
+        <input name="cep" id="cep" class="campo__escrita" required />
+        <div id="erro"></div>
+    </div>
+
+       
+        <div class="formulario__campo">
+            <label class="campo__etiqueta" for="endereco">Endereço:</label>
+            <input  name="endereco"id="endereco" class="campo__escrita">
+        </div>
+        <div class="form__duplo">
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="ddd">ddd:</label>
+                <input name ="ddd" id="ddd" class="campo__escrita">
+            </div>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="ibge">IBGE:</label>
+                <input name ="ibge" id="ibge" class="campo__escrita">
+            </div>
+        </div>
+       
+        <div class="formulario__campo">
+            <label class="campo__etiqueta" for="bairro">Bairro:</label>
+            <input name ="bairro" id="bairro" class="campo__escrita">
+        </div>
+
+        <div class="form__duplo">
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="cidade">Cidade:</label>
+                <input name ="cidade" id="cidade" class="campo__escrita">
+            </div>
+
+            <div class="formulario__campo">
+                <label class="campo__etiqueta" for="uf">UF:</label>
+                <input name ="uf" id="uf" class="campo__escrita">
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+   <script src="./index.js"></script>
+  <!--  <script src="./test.js"></script>-->
+
+</html>

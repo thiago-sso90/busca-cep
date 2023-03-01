@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+ .principal{
+    width: 50vh;
+    margin: 5em auto 6em auto;
+    padding: 2rem;
+    background: linear-gradient(rgb(235, 38, 38), #0000, #000);
+ }
+ .titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin:  0 0 1em 0;
+ }
+ .campo__etiqueta{
+    display: block;
+    font-weight: 700;
+    margin: 0.2em auto;
+    line-height: 24px;
+ }
+ .campo__escrita{
+    border: 5px solid corlor rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+
+ }
+ .formulario__campo{
+    margin: .1em 1em .1em 0;
+
+
+ }
+ .form__duplo{
+    display: flex;
+    
+
+ }
